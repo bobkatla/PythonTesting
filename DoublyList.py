@@ -41,11 +41,37 @@ class DoublyList:
             self.__head = new_node
             self.__count += 1
 
+    def insert(self, data, index):
+        if not self.start_list(data):
+            if abs(index) > self.__count:
+                raise IndexError
+            if index < 0:
+                index += self.__count
+            if index == 0:
+                self.add_head(data)
+            elif index == self.__count:
+                self.add_tail(data)
+            else:
+                i = 1
+                cur = self.__head
+                while i < index:
+                    cur = cur.next
+                    i += 1
+                new_node = self.__Node(data)
+                cur.next.prev = new_node
+                new_node.next = cur.next
+                cur.next = new_node
+                new_node.prev = cur
+                self.__count += 1
+
     def peek_head(self):
         return self.__head.data
 
     def peek_tail(self):
         return self.__tail.data
+
+    def get_len(self):
+        return self.__count
 
     def to_list(self) -> list:
         result = []
@@ -54,6 +80,3 @@ class DoublyList:
             result.append(cur.data)
             cur = cur.next
         return result
-
-
-
