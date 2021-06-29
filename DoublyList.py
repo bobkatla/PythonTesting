@@ -64,6 +64,19 @@ class DoublyList:
                 new_node.prev = cur
                 self.__count += 1
 
+    def peek(self, index):
+        if abs(index) >= self.__count:
+            raise IndexError
+        if index < 0:
+            index += self.__count
+            index -= 1
+        i = 0
+        cur = self.__head
+        while i < index:
+            cur = cur.next
+            i += 1
+        return cur.data
+
     def peek_head(self):
         return self.__head.data
 
