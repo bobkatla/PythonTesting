@@ -9,7 +9,7 @@
             <mxRectangle x="100" y="260" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wrX7tRwan2Duxi3YG75R-4" value="10 attributes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-3">
+        <mxCell id="wrX7tRwan2Duxi3YG75R-4" value="10 attributes (Scaler 1)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-3">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wrX7tRwan2Duxi3YG75R-10" value="Node &quot;&lt;b&gt;&lt;i&gt;part&lt;/i&gt;&lt;/b&gt;&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -17,7 +17,7 @@
             <mxRectangle x="100" y="260" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wrX7tRwan2Duxi3YG75R-11" value="15 attibutes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-10">
+        <mxCell id="wrX7tRwan2Duxi3YG75R-11" value="15 attibutes (Scaler 2)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-10">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wrX7tRwan2Duxi3YG75R-15" value="Edge &quot;&lt;b&gt;&lt;i&gt;part2part&lt;/i&gt;&lt;/b&gt;&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -33,7 +33,7 @@
             <mxRectangle x="100" y="260" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wrX7tRwan2Duxi3YG75R-22" value="&lt;i&gt;Temperature, circuit metal&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-21">
+        <mxCell id="wrX7tRwan2Duxi3YG75R-22" value="&lt;i&gt;Temperature, circuit metal (Scaler 5)&lt;/i&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-21">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wrX7tRwan2Duxi3YG75R-26" value="Node &quot;&lt;b&gt;&lt;i&gt;part&lt;/i&gt;&lt;/b&gt;&quot; results" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -41,10 +41,10 @@
             <mxRectangle x="100" y="260" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wrX7tRwan2Duxi3YG75R-27" value="&lt;i&gt;Flux, part&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-26">
+        <mxCell id="wrX7tRwan2Duxi3YG75R-27" value="&lt;i&gt;Flux, part (Scaler 3)&lt;/i&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-26">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wrX7tRwan2Duxi3YG75R-28" value="&lt;i&gt;Temperature, mold&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-26">
+        <mxCell id="wrX7tRwan2Duxi3YG75R-28" value="&lt;i&gt;Temperature, mold (Scaler 4)&lt;/i&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wrX7tRwan2Duxi3YG75R-26">
           <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wrX7tRwan2Duxi3YG75R-31" value="Edge &quot;&lt;b&gt;&lt;i&gt;part2cool&lt;/i&gt;&lt;/b&gt;&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
